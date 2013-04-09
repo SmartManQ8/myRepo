@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33785CBB14CDCDAE0094DB95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33785CBA14CDCDAE0094DB95 /* UIKit.framework */; };
+		33785CBD14CDCDAE0094DB95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33785CBC14CDCDAE0094DB95 /* Foundation.framework */; };
+		33785CBF14CDCDAE0094DB95 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33785CBE14CDCDAE0094DB95 /* CoreGraphics.framework */; };
+		33785CC514CDCDAE0094DB95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33785CC314CDCDAE0094DB95 /* InfoPlist.strings */; };
+		33785CC714CDCDAE0094DB95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33785CC614CDCDAE0094DB95 /* main.m */; };
+		33785CCB14CDCDAE0094DB95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33785CCA14CDCDAE0094DB95 /* AppDelegate.m */; };
+		33785CCE14CDCDAE0094DB95 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33785CCC14CDCDAE0094DB95 /* MainStoryboard.storyboard */; };
+		33785CD114CDCDAE0094DB95 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33785CD014CDCDAE0094DB95 /* MasterViewController.m */; };
+		33785CD414CDCDAE0094DB95 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33785CD314CDCDAE0094DB95 /* DetailViewController.m */; };
+		55F25BE0170EF8B800E90951 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F25BDF170EF8B800E90951 /* LoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33785CB614CDCDAE0094DB95 /* Simple SplitView Controller Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple SplitView Controller Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33785CBA14CDCDAE0094DB95 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		33785CBC14CDCDAE0094DB95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33785CBE14CDCDAE0094DB95 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		33785CC214CDCDAE0094DB95 /* Simple SplitView Controller Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple SplitView Controller Example-Info.plist"; sourceTree = "<group>"; };
+		33785CC414CDCDAE0094DB95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33785CC614CDCDAE0094DB95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33785CC814CDCDAE0094DB95 /* Simple SplitView Controller Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple SplitView Controller Example-Prefix.pch"; sourceTree = "<group>"; };
+		33785CC914CDCDAE0094DB95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33785CCA14CDCDAE0094DB95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33785CCD14CDCDAE0094DB95 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		33785CCF14CDCDAE0094DB95 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		33785CD014CDCDAE0094DB95 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		33785CD214CDCDAE0094DB95 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		33785CD314CDCDAE0094DB95 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		55F25BDE170EF8B800E90951 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		55F25BDF170EF8B800E90951 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33785CB314CDCDAE0094DB95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33785CBB14CDCDAE0094DB95 /* UIKit.framework in Frameworks */,
+				33785CBD14CDCDAE0094DB95 /* Foundation.framework in Frameworks */,
+				33785CBF14CDCDAE0094DB95 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33785CAB14CDCDAE0094DB95 = {
+			isa = PBXGroup;
+			children = (
+				33785CC014CDCDAE0094DB95 /* Simple SplitView Controller Example */,
+				33785CB914CDCDAE0094DB95 /* Frameworks */,
+				33785CB714CDCDAE0094DB95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33785CB714CDCDAE0094DB95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33785CB614CDCDAE0094DB95 /* Simple SplitView Controller Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33785CB914CDCDAE0094DB95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33785CBA14CDCDAE0094DB95 /* UIKit.framework */,
+				33785CBC14CDCDAE0094DB95 /* Foundation.framework */,
+				33785CBE14CDCDAE0094DB95 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33785CC014CDCDAE0094DB95 /* Simple SplitView Controller Example */ = {
+			isa = PBXGroup;
+			children = (
+				55F25BDE170EF8B800E90951 /* LoginViewController.h */,
+				55F25BDF170EF8B800E90951 /* LoginViewController.m */,
+				33785CC914CDCDAE0094DB95 /* AppDelegate.h */,
+				33785CCA14CDCDAE0094DB95 /* AppDelegate.m */,
+				33785CCC14CDCDAE0094DB95 /* MainStoryboard.storyboard */,
+				33785CCF14CDCDAE0094DB95 /* MasterViewController.h */,
+				33785CD014CDCDAE0094DB95 /* MasterViewController.m */,
+				33785CD214CDCDAE0094DB95 /* DetailViewController.h */,
+				33785CD314CDCDAE0094DB95 /* DetailViewController.m */,
+				33785CC114CDCDAE0094DB95 /* Supporting Files */,
+			);
+			path = "Simple SplitView Controller Example";
+			sourceTree = "<group>";
+		};
+		33785CC114CDCDAE0094DB95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33785CC214CDCDAE0094DB95 /* Simple SplitView Controller Example-Info.plist */,
+				33785CC314CDCDAE0094DB95 /* InfoPlist.strings */,
+				33785CC614CDCDAE0094DB95 /* main.m */,
+				33785CC814CDCDAE0094DB95 /* Simple SplitView Controller Example-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33785CB514CDCDAE0094DB95 /* Simple SplitView Controller Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33785CD714CDCDAE0094DB95 /* Build configuration list for PBXNativeTarget "Simple SplitView Controller Example" */;
+			buildPhases = (
+				33785CB214CDCDAE0094DB95 /* Sources */,
+				33785CB314CDCDAE0094DB95 /* Frameworks */,
+				33785CB414CDCDAE0094DB95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple SplitView Controller Example";
+			productName = "Simple SplitView Controller Example";
+			productReference = 33785CB614CDCDAE0094DB95 /* Simple SplitView Controller Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33785CAD14CDCDAE0094DB95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Newbound, Inc.";
+			};
+			buildConfigurationList = 33785CB014CDCDAE0094DB95 /* Build configuration list for PBXProject "Simple SplitView Controller Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 33785CAB14CDCDAE0094DB95;
+			productRefGroup = 33785CB714CDCDAE0094DB95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33785CB514CDCDAE0094DB95 /* Simple SplitView Controller Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33785CB414CDCDAE0094DB95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33785CC514CDCDAE0094DB95 /* InfoPlist.strings in Resources */,
+				33785CCE14CDCDAE0094DB95 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33785CB214CDCDAE0094DB95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33785CC714CDCDAE0094DB95 /* main.m in Sources */,
+				33785CCB14CDCDAE0094DB95 /* AppDelegate.m in Sources */,
+				33785CD114CDCDAE0094DB95 /* MasterViewController.m in Sources */,
+				33785CD414CDCDAE0094DB95 /* DetailViewController.m in Sources */,
+				55F25BE0170EF8B800E90951 /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33785CC314CDCDAE0094DB95 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33785CC414CDCDAE0094DB95 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		33785CCC14CDCDAE0094DB95 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33785CCD14CDCDAE0094DB95 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33785CD514CDCDAE0094DB95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		33785CD614CDCDAE0094DB95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33785CD814CDCDAE0094DB95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple SplitView Controller Example/Simple SplitView Controller Example-Prefix.pch";
+				INFOPLIST_FILE = "Simple SplitView Controller Example/Simple SplitView Controller Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		33785CD914CDCDAE0094DB95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple SplitView Controller Example/Simple SplitView Controller Example-Prefix.pch";
+				INFOPLIST_FILE = "Simple SplitView Controller Example/Simple SplitView Controller Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33785CB014CDCDAE0094DB95 /* Build configuration list for PBXProject "Simple SplitView Controller Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33785CD514CDCDAE0094DB95 /* Debug */,
+				33785CD614CDCDAE0094DB95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33785CD714CDCDAE0094DB95 /* Build configuration list for PBXNativeTarget "Simple SplitView Controller Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33785CD814CDCDAE0094DB95 /* Debug */,
+				33785CD914CDCDAE0094DB95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33785CAD14CDCDAE0094DB95 /* Project object */;
+}

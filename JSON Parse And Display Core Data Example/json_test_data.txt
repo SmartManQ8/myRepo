@@ -1,0 +1,52 @@
+{
+    "data": [
+        {
+            "commands": [
+                {
+                    "description": "First App with First Command",
+                    "id": "a1c1",
+                    "name": "Init",
+                    "parameters": [
+                        {
+                            "description": "Starts the init thread",
+                            "name": "initField"
+                        }
+                    ]
+                }
+            ],
+            "description": "The first application",
+            "id": "a1",
+            "img": "app_1.png",
+            "name": "App 1"
+        },
+        {
+            "commands": [
+                {
+                    "description": "Second App with First Command",
+                    "id": "a2c1",
+                    "name": "Add To Table",
+                    "parameters": [
+                        {
+                            "description": "Inserts the data",
+                            "name": "insertData"
+                        },
+                        {
+                            "description": "Determines the row index",
+                            "name": "rowNumber"
+                        }
+                    ]
+                },
+                {
+                    "description": "Second App with Second Command",
+                    "id": "a2c2",
+                    "name": "Display Table",
+                    "parameters": []
+                }
+            ],
+            "description": "The second application",
+            "id": "a2",
+            "img": "app_2.png",
+            "name": "App 2"
+        }
+    ]
+}

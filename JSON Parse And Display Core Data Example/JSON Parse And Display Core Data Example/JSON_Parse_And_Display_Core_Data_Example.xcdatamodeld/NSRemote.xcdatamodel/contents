@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1487" systemVersion="12B19" minimumToolsVersion="Xcode 4.1" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Apps" representedClassName="Apps" syncable="YES">
+        <attribute name="appID" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="detailDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="img" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="appsToCommands" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Commands" inverseName="commandToApps" inverseEntity="Commands" syncable="YES"/>
+    </entity>
+    <entity name="Commands" representedClassName="Commands" syncable="YES">
+        <attribute name="commandAppID" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="commandDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="commandID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="commandName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="commandAppToParameters" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Parameters" inverseName="parametersToCommandApps" inverseEntity="Parameters" syncable="YES"/>
+        <relationship name="commandToApps" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Apps" inverseName="appsToCommands" inverseEntity="Apps" syncable="YES"/>
+    </entity>
+    <entity name="Parameters" representedClassName="Parameters" syncable="YES">
+        <attribute name="commandAppParameterDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="commandAppParameterID" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="commandAppParameterName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="parametersToCommandApps" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Commands" inverseName="commandAppToParameters" inverseEntity="Commands" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Apps" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Parameters" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Commands" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>
